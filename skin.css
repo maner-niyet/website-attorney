@@ -1895,6 +1895,9 @@ button.btn-xs, button.btn-sm {
 .btn-text.active {
     margin-right: 35px;
 }
+.cnt-box {
+	height: 240px;
+}
 
 .cnt-box.boxed, .cnt-box-testimonials-bubble > p {
     text-align: center;
