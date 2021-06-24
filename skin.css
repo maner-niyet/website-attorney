@@ -131,6 +131,8 @@ footer .text-list-line li b, .light .text-list-line li b, .icon-links-grid a:hov
     color: #FFF !important;
 }
 
+
+
 @media (max-width: 991.98px) {
     .light .dropdown ul li:hover > a, .light .shop-menu .cart-buttons a {
         color: #FFF !important;
@@ -1107,6 +1109,24 @@ body > header ol.breadcrumb, .header-base .breadcrumb {
 */
 .footer-bar {
     border-color: rgba(255, 255, 255, 0.15);
+
+}
+.footer-bar-contacts{
+position:absolute;
+background-color: rgb(0, 71, 103);
+width:100%;
+bottom: -10px;
+right: 0;
+}
+.footer-bar-contacts > .container {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 12px;
+    letter-spacing: .5px;
+}
+
+.footer-bar-contacts> .container > span:last-child {
+    float: right;
 }
 
 footer .logo {
