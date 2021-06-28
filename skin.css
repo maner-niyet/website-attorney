@@ -96,6 +96,7 @@ footer.light a, .cnt-box.light .extra-field, nav.light .menu-cnt > ul > li:hover
     color: #03BFCB !important;
 }
 
+
 .cnt-box-blog-side .blog-date span:last-child, .progress-bar > div > div, footer .icon-list li:before, .shop-menu .cart-buttons a:hover, .cnt-box-blog-top .blog-date span:last-child, .btn-video:empty,
 .dropdown ul:not(.icon-list) li:hover > a, .cnt-box-info .extra-field, .menu-cnt > ul > li:hover > a, .lan-menu > li:hover > a, .dropdown > ul:before, .shop-menu-cnt .cart-count, .light .icon-box i, .light .counter i,
 .section-color.light .btn:not(.btn-border):hover, .breadcrumb li a:after, .menu-inner li:before, .text-list-base li > div, .text-list-image .content > div, .text-list-side li > div, .text-line:before,
@@ -2482,6 +2483,10 @@ Medium devices (tablets, less than 992px)
 
     body > nav .menu-brand {
         padding: 15px 0;
+    }
+    .menu-brand a>img{
+        width: 50px;;
+
     }
 
     footer h3 + p, footer h3 + p + div, footer h3 + div, footer h3 + p + .icon-links, footer h3 + ul.icon-list {
